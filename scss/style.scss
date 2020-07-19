@@ -1,0 +1,49 @@
+/*============  variables =======*/
+$text-color: #5a5a5a;
+$text-light: #fff;
+$main-color: #3677fd;
+
+@import "../libs/normalize.css";
+
+body {
+    font-family: "Aleo", serif;
+    font-family: "Josefin Sans", sans-serif;
+    color: $text-color;
+    font-size: 16px;
+    line-height: 35/16;
+    padding: 10px;
+}
+a {
+    color: $text-color;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* ======= grid and utilits =======*/
+.container {
+    padding: 0 calc(50% - 555px);
+    display: flex;
+    flex-wrap: wrap;
+}
+.first {
+    background-image: url(../images/Intro-bg.png);
+    min-height: calc(100vh - 75px);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.how-it-works__text {
+    font-family: "Aleo", serif;
+    font-size: 36px;
+    color: #e8e8e8;
+}
+.how-it-works {
+    background-color: #333333;
+    min-height: 335px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
